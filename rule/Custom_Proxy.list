@@ -10,4 +10,6 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,services.googleapis.cn
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
-
+# 个人需求特定域名
+DOMAIN-SUFFIX,acg.rip
+DOMAIN-SUFFIX,mikanani.me
