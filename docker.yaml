@@ -7,12 +7,12 @@
 # SRC-IP-CIDR,192.168.1.201/32,DIRECT #匹配数据发起IP(直连)
 # DST-PORT,80,DIRECT #匹配数据目标端口(直连)
 # SRC-PORT,7777,DIRECT #匹配数据源端口(直连)   
-
-DOMAIN,hub.docker.com
-DOMAIN,registry-1.docker.io
-DOMAIN,auth.docker.io
-DOMAIN,productioncloudflare.docker.com
-DOMAIN,index.docker.io
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,docker.io
-DOMAIN-KEYWORD,docker
+payload:
+  - DOMAIN,hub.docker.com
+  - DOMAIN,registry-1.docker.io
+  - DOMAIN,auth.docker.io
+  - DOMAIN,productioncloudflare.docker.com
+  - DOMAIN,index.docker.io
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-KEYWORD,docker
