@@ -7,7 +7,8 @@
 # IP-CIDR,127.0.0.0/8,DIRECT #匹配数据目标IP(直连)
 # SRC-IP-CIDR,192.168.1.201/32,DIRECT #匹配数据发起IP(直连)
 # DST-PORT,80,DIRECT #匹配数据目标端口(直连)
-# SRC-PORT,7777,DIRECT #匹配数据源端口(直连)   
-DOMAIN-SUFFIX,mikanani.me
-DOMAIN-SUFFIX,acg.rip
-DOMAIN-SUFFIX,monikadesign.uk
+# SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
+payload:
+  - DOMAIN-SUFFIX,mikanani.me
+  - DOMAIN-SUFFIX,acg.rip
+  - DOMAIN-SUFFIX,monikadesign.uk
